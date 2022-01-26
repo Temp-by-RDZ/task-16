@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Initialization {
 
 	public static void main(String[] args) {
+
 		int[] arr = new int[15];
 		int miss = 1+(int)(Math.random()*(arr.length-2));
 		System.out.println("Недостающий элемент - "+miss);
