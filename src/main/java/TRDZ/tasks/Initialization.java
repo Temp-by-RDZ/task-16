@@ -16,7 +16,7 @@ public class Initialization {
 		long endTime = System.currentTimeMillis();
 		System.out.println("Время экспоненциального поиска: "+(endTime-startTime));
 	//endregion
-	//region Добавленый поиск пропущеного элемента массива с помощью линейного поиска для сравнения
+	//region Проведение поиска пропущеного элемента массива с помощью линейного поиска для сравнения
 		startTime = System.currentTimeMillis();
 		System.out.println("=> "+Basic_Search(arr));
 		endTime = System.currentTimeMillis();
